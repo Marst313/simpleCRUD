@@ -18,18 +18,18 @@
     </div>
 
     <div class="bulan container-fluid">
-      <button>January</button>
-      <button>February</button>
-      <button>March</button>
-      <button>April</button>
-      <button>May</button>
-      <button>June</button>
-      <button>July</button>
-      <button>August</button>
-      <button>September</button>
-      <button>October</button>
-      <button>November</button>
-      <button>December</button>
+      <button class="jan">January</button>
+      <button class="feb">February</button>
+      <button class="mar">March</button>
+      <button class="apr">April</button>
+      <button class="may">May</button>
+      <button class="june">June</button>
+      <button class="july">July</button>
+      <button class="aug">August</button>
+      <button class="sept">September</button>
+      <button class="oct">October</button>
+      <button class="nov">November</button>
+      <button class="dec">December</button>
     </div>
 
     <div class="hari container-fluid">
@@ -45,7 +45,7 @@
     <div class="garis"></div>
 
     <section class="content-tanggal">
-      <div class="tanggal">
+      <div class="tanggal pertama">
         <button>1</button>
         <button>2</button>
         <button>3</button>
@@ -54,7 +54,7 @@
         <button>6</button>
         <button>7</button>
       </div>
-      <div class="tanggal">
+      <div class="tanggal kedua">
         <button>8</button>
         <button>9</button>
         <button>10</button>
@@ -63,7 +63,7 @@
         <button>13</button>
         <button>14</button>
       </div>
-      <div class="tanggal">
+      <div class="tanggal ketiga">
         <button>15</button>
         <button>16</button>
         <button>17</button>
@@ -72,7 +72,7 @@
         <button>20</button>
         <button>21</button>
       </div>
-      <div class="tanggal">
+      <div class="tanggal keempat">
         <button>22</button>
         <button>23</button>
         <button>24</button>
@@ -81,7 +81,7 @@
         <button>27</button>
         <button>28</button>
       </div>
-      <div class="tanggal">
+      <div class="tanggal kelima">
         <button>29</button>
         <button>30</button>
         <button>31</button>
@@ -94,25 +94,22 @@
 
     <div class="garis"></div>
 
-    <section class="buttonKegiatan">
-      <div class="kegiatan container-fluid">
-        <button class="tambah">
-          <div class="garisHorizontal"></div>
-          <div class="garisVertical"></div>
-        </button>
-      </div>
-    </section>
-
     <!-- opacity 0 -->
-    <section class="aktifitas">
-      <div class="tambah-kegiatan container-fluid">
-        <button class="edit">Edit</button>
-        <input type="text" placeholder="Write Your Activities" style="text-align: center" />
-        <button class="minus">
-          <div class="garisHorizontal"></div>
-        </button>
-      </div>
-    </section>
+
+    <div class="kegiatan container-fluid" id="aktifitas">
+      <button class="tambah">
+        <div class="garisHorizontal"></div>
+        <div class="garisVertical"></div>
+      </button>
+    </div>
+
+    <div class="tambah-kegiatan container-fluid" id="keg">
+      <button class="edit">Edit</button>
+      <input type="text" placeholder="Write Your Activities" style="text-align: center" />
+      <button class="minus">
+        <div class="garisHorizontal"></div>
+      </button>
+    </div>
 
     <section class="footer">
       <div class="container-fluid">
@@ -124,6 +121,7 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script/app.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
