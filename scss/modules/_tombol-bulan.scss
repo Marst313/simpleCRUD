@@ -3,7 +3,7 @@
   margin-top: 1em;
   //   background-color: red;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
   button {
     margin-right: 1em;
@@ -11,7 +11,7 @@
     width: 100px;
     border: none;
     background-color: transparent;
-    &:nth-child(1) {
+    &:nth-child(8) {
       background-color: #38cab0;
       border-radius: 10px;
     }

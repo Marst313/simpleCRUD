@@ -22,6 +22,8 @@ const bulanOktober = document.querySelector('.oct');
 const bulanNovember = document.querySelector('.nov');
 const bulanDesember = document.querySelector('.dec');
 
+const seluruhBulan = [bulanJanuari, bulanFebruari, bulanMaret, bulanApril, bulanMei, bulanJuni, bulanJuly, bulanAgustus, bulanSeptember, bulanOktober, bulanNovember, bulanDesember];
+
 // selector hari
 const mingguPertama = document.querySelector('.pertama');
 const mingguKedua = document.querySelector('.kedua');
@@ -35,6 +37,27 @@ const tombolKurang = document.querySelector('.minus');
 const tombolEdit = document.querySelector('.edit');
 
 function displayMovement() {
+  // Daily dan monthly diclick
+  dailyButton.addEventListener('click', function () {
+    dailyButton.style.zIndex = '1';
+    monthlyButton.style.backgroundColor = 'white';
+    dailyButton.style.backgroundColor = '#38cab0';
+  });
+  monthlyButton.addEventListener('click', function () {
+    dailyButton.style.zIndex = '0';
+    monthlyButton.style.backgroundColor = '#38cab0';
+    dailyButton.style.backgroundColor = 'white';
+  });
+  //
+
+  // bulan Januari hingga desember diclick
+  for (const bulan of seluruhBulan) {
+    bulan.addEventListener('click', function () {
+      console.log(bulan);
+    });
+  }
+
+  // kegiatan
   tombolKurang.addEventListener('click', function () {
     kegiatan.remove(kegiatan);
   });

@@ -1,4 +1,6 @@
 //Tombol Navbar
+
+$primarycolor: #38cab0;
 .navbar-atas {
   margin-top: 1em;
   display: flex;
@@ -7,7 +9,7 @@
   .monthlyButton {
     margin-right: -5em;
     z-index: 1;
-    background-color: #38cab0;
+    background-color: $primarycolor;
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
   }
   .dailyButton {
