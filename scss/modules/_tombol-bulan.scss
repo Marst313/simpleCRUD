@@ -1,0 +1,19 @@
+/* Tombol Bulan */
+.bulan {
+  margin-top: 1em;
+  //   background-color: red;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    margin-right: 1em;
+    font-size: 24px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    &:nth-child(1) {
+      background-color: #38cab0;
+      border-radius: 10px;
+    }
+  }
+}

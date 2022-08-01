@@ -1,0 +1,23 @@
+//Tombol Navbar
+.navbar-atas {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  //   background-color: red;
+  .monthlyButton {
+    margin-right: -5em;
+    z-index: 1;
+    background-color: #38cab0;
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
+  }
+  .dailyButton {
+    box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  button {
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+  }
+}

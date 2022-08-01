@@ -1,0 +1,15 @@
+.footer {
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    a {
+      text-decoration: none;
+    }
+    p {
+      font-size: 1em;
+    }
+  }
+}
