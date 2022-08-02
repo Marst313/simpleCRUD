@@ -21,10 +21,9 @@ initMonth();
 const initDay = () => {
   for (let i = 0; i < 31; i++) {
     if (i === tanggal) {
-      document.querySelector(`#t${i}`).style.color = 'rgba(0,0,0)';
+      document.querySelector(`#t${i}`).style.color = warnaPutih;
     } else {
-      //   document.getElementById(`#t${i}`).style.color = 'white';
-      //   document.getElementById(`#t${i}`).style.border = 'none';
+      // document.getElementById(`#t${i+1}`).style.color = warnaHitam;
     }
   }
 };
