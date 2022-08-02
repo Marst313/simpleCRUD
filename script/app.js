@@ -52,15 +52,72 @@ function displayMovement() {
 
   // bulan Januari hingga desember diclick
   for (const bulan of seluruhBulan) {
-    bulan.addEventListener('click', function () {
-      console.log(bulan);
+    function bulanTransparant() {
+      bulan.style.backgroundColor = 'transparent';
+    }
+    bulanJanuari.addEventListener('click', function () {
+      bulanTransparant();
+      bulanJanuari.style.backgroundColor = '#38cab0';
+      bulanJanuari.style.borderRadius = '10px';
+    });
+    bulanFebruari.addEventListener('click', function () {
+      bulanTransparant();
+      bulanFebruari.style.backgroundColor = '#38cab0';
+      bulanFebruari.style.borderRadius = '10px';
+    });
+    bulanMaret.addEventListener('click', function () {
+      bulanTransparant();
+      bulanMaret.style.backgroundColor = '#38cab0';
+      bulanMaret.style.borderRadius = '10px';
+    });
+    bulanApril.addEventListener('click', function () {
+      bulanTransparant();
+      bulanApril.style.backgroundColor = '#38cab0';
+      bulanApril.style.borderRadius = '10px';
+    });
+    bulanMei.addEventListener('click', function () {
+      bulanTransparant();
+      bulanMei.style.backgroundColor = '#38cab0';
+      bulanMei.style.borderRadius = '10px';
+    });
+    bulanJuni.addEventListener('click', function () {
+      bulanTransparant();
+      bulanJuni.style.backgroundColor = '#38cab0';
+      bulanJuni.style.borderRadius = '10px';
+    });
+    bulanJuly.addEventListener('click', function () {
+      bulanTransparant();
+      bulanJuly.style.backgroundColor = '#38cab0';
+      bulanJuly.style.borderRadius = '10px';
+    });
+    bulanAgustus.addEventListener('click', function () {
+      bulanTransparant();
+      bulanAgustus.style.backgroundColor = '#38cab0';
+      bulanAgustus.style.borderRadius = '10px';
+    });
+    bulanSeptember.addEventListener('click', function () {
+      bulanTransparant();
+      bulanSeptember.style.backgroundColor = '#38cab0';
+      bulanSeptember.style.borderRadius = '10px';
+    });
+    bulanOktober.addEventListener('click', function () {
+      bulanTransparant();
+      bulanOktober.style.backgroundColor = '#38cab0';
+      bulanOktober.style.borderRadius = '10px';
+    });
+    bulanNovember.addEventListener('click', function () {
+      bulanTransparant();
+      bulanNovember.style.backgroundColor = '#38cab0';
+      bulanNovember.style.borderRadius = '10px';
+    });
+    bulanDesember.addEventListener('click', function () {
+      bulanTransparant();
+      bulanDesember.style.backgroundColor = '#38cab0';
+      bulanDesember.style.borderRadius = '10px';
     });
   }
 
   // kegiatan
-  tombolKurang.addEventListener('click', function () {
-    kegiatan.remove(kegiatan);
-  });
 
   tombolTambah.addEventListener('click', function () {
     const html = `    <div class="tambah-kegiatan container-fluid" id="keg">
@@ -73,6 +130,10 @@ function displayMovement() {
     kegiatan.insertAdjacentHTML('afterend', html);
   });
   tombolEdit.addEventListener('click', function () {});
+
+  tombolKurang.addEventListener('click', function () {
+    console.log('tombol diclick');
+  });
 }
 
 displayMovement();

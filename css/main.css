@@ -33,14 +33,12 @@ body {
 }
 .bulan button {
   margin-right: 1em;
-  font-size: 24px;
-  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  width: 120px;
+  height: 40px;
   border: none;
   background-color: transparent;
-}
-.bulan button:nth-child(8) {
-  background-color: #38cab0;
-  border-radius: 10px;
 }
 
 /* Hari */
