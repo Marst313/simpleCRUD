@@ -9,20 +9,20 @@ const dailyButton = document.querySelector('.dailyButton');
 const monthlyButton = document.querySelector('.monthlyButton');
 
 // selector pilihan bulan
-const bulanJanuari = document.querySelector('.jan');
-const bulanFebruari = document.querySelector('.feb');
-const bulanMaret = document.querySelector('.mar');
-const bulanApril = document.querySelector('.apr');
-const bulanMei = document.querySelector('.may');
-const bulanJuni = document.querySelector('.june');
-const bulanJuly = document.querySelector('.july');
-const bulanAgustus = document.querySelector('.aug');
-const bulanSeptember = document.querySelector('.sept');
-const bulanOktober = document.querySelector('.oct');
-const bulanNovember = document.querySelector('.nov');
-const bulanDesember = document.querySelector('.dec');
+const bulan1 = document.querySelector('.b1');
+const bulan2 = document.querySelector('.b2');
+const bulan3 = document.querySelector('.b3');
+const bulan4 = document.querySelector('.b4');
+const bulan5 = document.querySelector('.b5');
+const bulan6 = document.querySelector('.b6');
+const bulan7 = document.querySelector('.b7');
+const bulan8 = document.querySelector('.b8');
+const bulan9 = document.querySelector('.b9');
+const bulan10 = document.querySelector('.b10');
+const bulan11 = document.querySelector('.b11');
+const bulan12 = document.querySelector('.b12');
 
-const seluruhBulan = [bulanJanuari, bulanFebruari, bulanMaret, bulanApril, bulanMei, bulanJuni, bulanJuly, bulanAgustus, bulanSeptember, bulanOktober, bulanNovember, bulanDesember];
+const seluruhBulan = [bulan1, bulan2, bulan3, bulan4, bulan5, bulan6, bulan7, bulan8, bulan9, bulan10, bulan11, bulan12];
 
 // selector hari
 const mingguPertama = document.querySelector('.pertama');
@@ -60,83 +60,84 @@ function displayMovement() {
   });
   //
 
-  // bulan Januari hingga desember diclick
+  // bulan 1 hingga 12 diclick
   for (const bulan of seluruhBulan) {
     function bulanTransparant() {
       bulan.style.background = 'transparent';
       bulan.style.color = warnaHitam;
+      bulan.style.border = 'none';
     }
-    bulanJanuari.addEventListener('click', function () {
+    bulan1.addEventListener('click', function () {
       bulanTransparant();
-      bulanJanuari.style.background = rainbowColor;
-      bulanJanuari.style.borderRadius = '10px';
-      bulanJanuari.style.color = warnaPutih;
+      bulan1.style.background = rainbowColor;
+      bulan1.style.borderRadius = '10px';
+      bulan1.style.color = warnaPutih;
     });
-    bulanFebruari.addEventListener('click', function () {
+    bulan2.addEventListener('click', function () {
       bulanTransparant();
-      bulanFebruari.style.background = rainbowColor;
-      bulanFebruari.style.borderRadius = '10px';
-      bulanFebruari.style.color = warnaPutih;
+      bulan2.style.background = rainbowColor;
+      bulan2.style.borderRadius = '10px';
+      bulan2.style.color = warnaPutih;
     });
-    bulanMaret.addEventListener('click', function () {
+    bulan3.addEventListener('click', function () {
       bulanTransparant();
-      bulanMaret.style.background = rainbowColor;
-      bulanMaret.style.borderRadius = '10px';
-      bulanMaret.style.color = warnaPutih;
+      bulan3.style.background = rainbowColor;
+      bulan3.style.borderRadius = '10px';
+      bulan3.style.color = warnaPutih;
     });
-    bulanApril.addEventListener('click', function () {
+    bulan4.addEventListener('click', function () {
       bulanTransparant();
-      bulanApril.style.background = rainbowColor;
-      bulanApril.style.borderRadius = '10px';
-      bulanApril.style.color = warnaPutih;
+      bulan4.style.background = rainbowColor;
+      bulan4.style.borderRadius = '10px';
+      bulan4.style.color = warnaPutih;
     });
-    bulanMei.addEventListener('click', function () {
+    bulan5.addEventListener('click', function () {
       bulanTransparant();
-      bulanMei.style.background = rainbowColor;
-      bulanMei.style.borderRadius = '10px';
-      bulanMei.style.color = warnaPutih;
+      bulan5.style.background = rainbowColor;
+      bulan5.style.borderRadius = '10px';
+      bulan5.style.color = warnaPutih;
     });
-    bulanJuni.addEventListener('click', function () {
+    bulan6.addEventListener('click', function () {
       bulanTransparant();
-      bulanJuni.style.background = rainbowColor;
-      bulanJuni.style.borderRadius = '10px';
-      bulanJuni.style.color = warnaPutih;
+      bulan6.style.background = rainbowColor;
+      bulan6.style.borderRadius = '10px';
+      bulan6.style.color = warnaPutih;
     });
-    bulanJuly.addEventListener('click', function () {
+    bulan7.addEventListener('click', function () {
       bulanTransparant();
-      bulanJuly.style.background = rainbowColor;
-      bulanJuly.style.borderRadius = '10px';
-      bulanJuly.style.color = warnaPutih;
+      bulan7.style.background = rainbowColor;
+      bulan7.style.borderRadius = '10px';
+      bulan7.style.color = warnaPutih;
     });
-    bulanAgustus.addEventListener('click', function () {
+    bulan8.addEventListener('click', function () {
       bulanTransparant();
-      bulanAgustus.style.background = rainbowColor;
-      bulanAgustus.style.borderRadius = '10px';
-      bulanAgustus.style.color = warnaPutih;
+      bulan8.style.background = rainbowColor;
+      bulan8.style.borderRadius = '10px';
+      bulan8.style.color = warnaPutih;
     });
-    bulanSeptember.addEventListener('click', function () {
+    bulan9.addEventListener('click', function () {
       bulanTransparant();
-      bulanSeptember.style.background = rainbowColor;
-      bulanSeptember.style.borderRadius = '10px';
-      bulanSeptember.style.color = warnaPutih;
+      bulan9.style.background = rainbowColor;
+      bulan9.style.borderRadius = '10px';
+      bulan9.style.color = warnaPutih;
     });
-    bulanOktober.addEventListener('click', function () {
+    bulan10.addEventListener('click', function () {
       bulanTransparant();
-      bulanOktober.style.background = rainbowColor;
-      bulanOktober.style.borderRadius = '10px';
-      bulanOktober.style.color = warnaPutih;
+      bulan10.style.background = rainbowColor;
+      bulan10.style.borderRadius = '10px';
+      bulan10.style.color = warnaPutih;
     });
-    bulanNovember.addEventListener('click', function () {
+    bulan11.addEventListener('click', function () {
       bulanTransparant();
-      bulanNovember.style.background = rainbowColor;
-      bulanNovember.style.borderRadius = '10px';
-      bulanNovember.style.color = warnaPutih;
+      bulan11.style.background = rainbowColor;
+      bulan11.style.borderRadius = '10px';
+      bulan11.style.color = warnaPutih;
     });
-    bulanDesember.addEventListener('click', function () {
+    bulan12.addEventListener('click', function () {
       bulanTransparant();
-      bulanDesember.style.background = rainbowColor;
-      bulanDesember.style.borderRadius = '10px';
-      bulanDesember.style.color = warnaPutih;
+      bulan12.style.background = rainbowColor;
+      bulan12.style.borderRadius = '10px';
+      bulan12.style.color = warnaPutih;
     });
   }
 
