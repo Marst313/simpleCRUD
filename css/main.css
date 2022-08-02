@@ -203,6 +203,14 @@ body {
   color: red;
 }
 
+.text-secondary {
+  border: 3px solid black;
+  border-radius: 5px;
+  width: 90%;
+  padding: 0.5em;
+  background: linear-gradient(259deg, rgb(245, 247, 222) 20%, rgb(239, 240, 238) 51%, rgb(224, 236, 220) 80%);
+}
+
 .footer .container-fluid {
   display: flex;
   justify-content: center;

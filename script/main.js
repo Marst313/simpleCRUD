@@ -63,7 +63,13 @@ let createTasks = () => {
         </div>
     `);
   });
+  const lastDate = Number(dateInput.value.slice(-2));
 
+  for (let i = 1; i <= 31; i++) {
+    if (lastDate === i) {
+      document.querySelector(`#t${lastDate}`).style.border = '5px solid red';
+    }
+  }
   resetForm();
 };
 
@@ -72,6 +78,10 @@ let deleteTask = (e) => {
   data.splice(e.parentElement.parentElement.id, 1);
   localStorage.setItem('data', JSON.stringify(data));
   console.log(data);
+
+  for (let i = 1; i <= 31; i++) {
+    document.querySelector(`#t${i}`).style.border = 'none';
+  }
 };
 
 let editTask = (e) => {
