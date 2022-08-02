@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(180deg, #f32424 11.23%, rgba(36, 243, 57, 0.8) 51.3%, rgba(243, 197, 36, 0.8) 86.46%);
+  background-image: url(../bgImage/blue-curve-background/rm222batch2-mind-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -9,6 +9,6 @@ body {
 @import 'modules/hari';
 @import 'modules/garis';
 @import 'modules/tanggal';
-@import 'modules/tombol-kegiatan+';
-@import 'modules/editKegiatan';
+@import 'modules/taskStyle';
+@import 'modules/formsstyle';
 @import 'modules/footer';

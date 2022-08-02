@@ -1,18 +1,22 @@
 //Tombol Navbar
 
 $primarycolor: #38cab0;
+$primaryrainbow: linear-gradient(180deg, rgba(37, 52, 160, 1) 15%, rgba(37, 118, 160, 1) 40%, rgba(37, 153, 160, 1) 65%, rgba(20, 255, 243, 1) 90%);
+
 .navbar-atas {
   margin-top: 1em;
   display: flex;
   justify-content: center;
   //   background-color: red;
   .monthlyButton {
+    color: white;
     margin-right: -5em;
     z-index: 1;
-    background-color: $primarycolor;
+    background: $primaryrainbow;
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
   }
   .dailyButton {
+    color: black;
     box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
   }
 

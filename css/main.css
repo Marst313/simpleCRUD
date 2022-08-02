@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(180deg, #f32424 11.23%, rgba(36, 243, 57, 0.8) 51.3%, rgba(243, 197, 36, 0.8) 86.46%);
+  background-image: url(../bgImage/blue-curve-background/rm222batch2-mind-03.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -10,12 +10,14 @@ body {
   justify-content: center;
 }
 .navbar-atas .monthlyButton {
+  color: white;
   margin-right: -5em;
   z-index: 1;
-  background-color: #38cab0;
+  background: linear-gradient(180deg, rgb(37, 52, 160) 15%, rgb(37, 118, 160) 40%, rgb(37, 153, 160) 65%, rgb(20, 255, 243) 90%);
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
 }
 .navbar-atas .dailyButton {
+  color: black;
   box-shadow: 5px 0px 20px rgba(0, 0, 0, 0.25);
 }
 .navbar-atas button {
@@ -63,73 +65,77 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.tanggal.pertama button:last-child {
+  color: red;
+}
+.tanggal.kedua button:last-child {
+  color: red;
+}
+.tanggal.ketiga button:last-child {
+  color: red;
+}
+.tanggal.keempat button:last-child {
+  color: red;
+}
 .tanggal button {
+  font-weight: bold;
   height: 40px;
   width: 40px;
   border-radius: 5px;
   border: none;
+  background: linear-gradient(180deg, rgb(37, 52, 160) 15%, rgb(37, 118, 160) 40%, rgb(37, 153, 160) 65%, rgb(20, 255, 243) 90%);
+  color: rgb(250, 250, 250);
 }
 .tanggal .hilang {
   opacity: 0;
   cursor: default;
 }
 
-.kegiatan {
-  margin-top: 0.5em;
-  width: 100%;
-  display: flex;
-  justify-content: center;
+.app {
+  margin-top: 1em;
 }
-.kegiatan button {
-  margin: 0.2em;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  color: black;
-  background-color: #38cab0;
-  border: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.app .fa-plus {
+  margin-left: 1em;
+  padding: 5px;
+  border-radius: 50px;
+  margin-left: 0.5em;
+  color: green;
+  background: linear-gradient(259deg, rgb(240, 247, 181) 20%, rgb(212, 246, 188) 51%, rgb(206, 241, 195) 80%);
 }
-.kegiatan button .garisHorizontal {
-  width: 50%;
-  height: 3px;
-  background-color: white;
-}
-.kegiatan button .garisVertical {
-  position: absolute;
-  height: 2%;
-  width: 3px;
-  background-color: white;
-}
-
-.tambah-kegiatan {
-  padding: 0.5em;
+.app #addNew {
   margin-top: 1em;
   display: flex;
   justify-content: center;
-}
-.tambah-kegiatan .edit {
-  margin-right: 0.5em;
-  border: none;
-  border-radius: 3px;
-}
-.tambah-kegiatan .minus {
-  margin-left: 0.5em;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: none;
-  background-color: #38cab0;
-  display: flex;
-  justify-content: center;
   align-items: center;
+  background: linear-gradient(180deg, rgb(37, 52, 160) 15%, rgb(37, 118, 160) 40%, rgb(37, 153, 160) 65%, rgb(20, 255, 243) 90%);
+  width: 200px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  cursor: pointer;
+  color: white;
 }
-.tambah-kegiatan .minus .garisHorizontal {
-  width: 50%;
-  height: 3px;
-  background-color: white;
+.app #addNew:hover {
+  opacity: 0.9;
+}
+
+.app h5 {
+  color: black;
+}
+.app h5:nth-child(1) {
+  color: white;
+}
+.app p {
+  color: white;
+}
+.app .btn-close:hover {
+  background-color: red;
+}
+.app form {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.app form .modal-content {
+  background: linear-gradient(180deg, rgb(37, 52, 160) 15%, rgb(37, 118, 160) 40%, rgb(37, 153, 160) 65%, rgb(20, 255, 243) 90%);
 }
 
 .footer .container-fluid {
