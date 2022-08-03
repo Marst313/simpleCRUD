@@ -236,7 +236,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .button-collapse {
-    margin-left: 35%;
+    margin-left: 30%;
     margin-top: 1em;
   }
   .bulan {
