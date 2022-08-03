@@ -7,11 +7,12 @@ const tanggal = date.getDate();
 const hari = date.getDay();
 
 let initMonth = () => {
-  for (let i = 0; i < 12; i++) {
+  for (let i = 0; i <= 12; i++) {
     if (i === bulan) {
       document.querySelector(`.b${i}`).style.background = rainbowColor;
       document.querySelector(`.b${i}`).style.color = warnaPutih;
       document.querySelector(`.b${i}`).style.borderRadius = '10px';
+      document.querySelector(`.b${i}`).style.visibility = 'visible';
     } else {
     }
   }

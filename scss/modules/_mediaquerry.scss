@@ -1,0 +1,91 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .button-collapse {
+    margin-left: 37%;
+    margin-top: 1em;
+  }
+  .bulan {
+    display: grid;
+    button {
+      font-size: 15px;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .button-collapse {
+    margin-left: 45%;
+    margin-top: 1em;
+  }
+  .bulan {
+    display: grid;
+    button {
+      font-size: 15px;
+    }
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .button-collapse {
+    margin-left: 42%;
+    margin-top: 1em;
+  }
+
+  .bulan {
+    display: grid;
+    button {
+      font-size: 15px;
+    }
+  }
+
+  /* Hari */
+  //   .hari {
+  //     //   background-color: red;
+  //     margin-top: 5em;
+  //     display: flex;
+  //     justify-content: space-around;
+
+  //     p {
+  //       font-size: 20px;
+  //       padding-top: 1em;
+  //     }
+  //   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .button-collapse {
+    margin-left: 42%;
+    margin-top: 1em;
+  }
+
+  .bulan {
+    position: relative;
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    button {
+      font-size: 15px;
+    }
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .button-collapse {
+    margin-left: 46%;
+    margin-top: 1em;
+  }
+  .bulan {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    button {
+      font-size: 20px;
+    }
+  }
+}

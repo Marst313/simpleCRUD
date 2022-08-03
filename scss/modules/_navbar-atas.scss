@@ -27,3 +27,12 @@ $primaryrainbow: linear-gradient(180deg, rgba(37, 52, 160, 1) 15%, rgba(37, 118,
     border-radius: 50px;
   }
 }
+
+.button-collapse {
+  background: $primaryrainbow;
+  border: none;
+  width: 150px;
+}
+.button-collapse:active {
+  opacity: 0.9;
+}

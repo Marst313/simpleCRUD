@@ -7,6 +7,7 @@ let textarea = document.getElementById('textarea');
 let msg = document.getElementById('msg');
 let tasks = document.getElementById('tasks');
 let add = document.getElementById('add');
+const primaryRainbow = `linear-gradient(180deg, rgba(37, 52, 160, 1) 15%, rgba(37, 118, 160, 1) 40%, rgba(37, 153, 160, 1) 65%, rgba(20, 255, 243, 1) 90%);`;
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -67,7 +68,7 @@ let createTasks = () => {
 
   for (let i = 1; i <= 31; i++) {
     if (lastDate === i) {
-      document.querySelector(`#t${lastDate}`).style.border = '5px solid red';
+      document.querySelector(`#t${lastDate}`).style.border = `5px solid rgb(0,0,0)`;
     }
   }
   resetForm();
