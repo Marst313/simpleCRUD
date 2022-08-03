@@ -10,6 +10,22 @@
       font-size: 15px;
     }
   }
+
+  .footer {
+    .container-fluid {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 9.3em;
+
+      a {
+        text-decoration: none;
+      }
+      p {
+        font-size: 0.8em;
+      }
+    }
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
